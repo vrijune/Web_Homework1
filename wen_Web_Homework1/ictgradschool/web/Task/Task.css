@@ -1,0 +1,83 @@
+img{
+    position: absolute;
+}
+
+#heading{
+    background-color: gray;
+    font-family: sans-serif;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    width:auto;
+    height:auto;
+    margin: auto;
+    padding: 70px;
+}
+
+.nav{
+    background-color:lightgray;
+    text-align: center;
+    padding: 50px;
+}
+
+h2{ font-size: 35px;
+    text-align: center;
+    font-family: serif;
+    margin-bottom: 70px;
+}
+
+
+.table{
+    font-size: 35px;
+    text-align: center;
+    font-family: serif;
+    margin: auto;
+    position: relative;
+    border: 1px solid black;
+}
+
+td:nth-child(2){
+    background-color: lightskyblue;
+}
+
+td:nth-child(3){
+    background-color: darksalmon;
+}
+
+
+#container{
+    width: 940px;
+    height:627px;
+    position: relative;
+    left: 50%;
+    transform : translate(-50%);
+    z-index: 0;
+    margin-top: 50px;
+}
+
+
+#lightning1{
+
+    position: absolute;
+    z-index: 1;
+    right: 130px;
+    top: 20px;
+
+}
+
+#lightning2{
+
+    position: absolute;
+    z-index: 1;
+    left: 130px;
+    top: 20px;
+}
+
+
+#Pikachu{
+    transform: scale(0.6);
+    position: absolute;
+    bottom: 100px;
+    right: 170px;
+    z-index: 2;
+}
